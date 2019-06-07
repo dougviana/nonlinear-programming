@@ -12,7 +12,8 @@ No programa está implementado:
 3. Um algoritmo utilizando (1) e (2) para encontrar o mínimo irrestrito de uma função f(x).
 
 #
-Dados de Entrada
+Dados de Entrada:
+
 Como entrada serão dadas as seguintes informações em um arquivo entrada.py:
 - d: variável com a dimensao da função
 - f(x): uma função implementando f
@@ -21,7 +22,8 @@ Como entrada serão dadas as seguintes informações em um arquivo entrada.py:
 - eps: variável com a precisão desejada para o ponto de ótimo, x*
 
 #
-Dados de Saída
+Dados de Saída:
+
 O programa gera um arquivo saida.txt contendo na primeira linha o valor ótimo
 obtido (f(x*)) e na segunda linha o argumento ótimo (x*)
 
