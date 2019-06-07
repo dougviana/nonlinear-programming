@@ -20,17 +20,6 @@ Como entrada serão dadas as seguintes informações em um arquivo entrada.py:
 - x0: vetor com o ponto inicial
 - eps: variável com a precisão desejada para o ponto de ótimo, x*
 
-2.1 Exemplo de Entrada
-d = 2;
-x0 = [2, -2];
-eps = 0.001;
-def f(x):
-fx = 100*((x[1] - x[0]**2))**2 + (1 - x[0])**2
-return(fx)
-def g(x):
-gx = [2*(-1 + x[0]) - 400*(x[1] - x[0]**2)*x[0], 200*(x[1] - x[0]**2)]
-return(gx);
-
 #
 3 Dados de Saída
 O programa gera um arquivo saida.txt contendo na primeira linha o valor ótimo
