@@ -1,13 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 14 01:49:58 2013
-
-@author: User
-"""
-
-#Douglas Viana da Silva 7157411
-#Quarto exercicio programa
-#MAP2212 primeiro semestre de 2013
 
 from entrada import d, eps, x, f, g
 from busca_linear import bl
